@@ -11,7 +11,7 @@ const App = () => {
     <div>
         {/* Do not remove the main div */}
         <input type="text" onChange={showName}></input>
-        <h1>{name && `Hello ${name}!`}</h1>
+        <p>{name && `Hello ${name}!`}</p>
     </div>
   )
 }
